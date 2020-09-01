@@ -26,9 +26,9 @@ parameters:
 
 Apply the StorageClass and check it has been created successfully:
 
-`$ kubectl apply -f storageclass-wekafs-dir.yaml`{{execute}}
+`kubectl apply -f storageclass-wekafs-dir.yaml`{{execute}}
 
 Check the storageclass resource has been created:
-`$ kubectl get sc`{{execute}}
+`kubectl get sc`{{execute}}
 
 It is possible to define multiple storage classes with different filesystems.

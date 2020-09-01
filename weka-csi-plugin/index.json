@@ -37,6 +37,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "kubernetes-cluster:1.18"
+    "imageid": "kubernetes-cluster:1.18-running"
   }
 }

@@ -13,13 +13,13 @@ get all k8s nodes
 `kubectl get nodes`{{execute}}
 
 get storage classes
-`$ kubectl get sc`{{execute}}
+`kubectl get sc`{{execute}}
 
 get persistent volume claims
-`$ kubectl get pvc`{{execute}}
+`kubectl get pvc`{{execute}}
 
 get persistent volumes
-`$ kubectl get pv`{{execute}}
+`kubectl get pv`{{execute}}
 
 kubectl describe pod/<pod-name> -n <namespace>
 `kubectl describe pod/csi-wekafsplugin-dvdh2 -n csi-wekafsplugin`{{execute}}

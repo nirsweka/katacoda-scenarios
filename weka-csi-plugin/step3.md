@@ -29,7 +29,7 @@ spec:
 
 Apply the PersistentVolumeClaim and check it has been created successfully:
 
-`$ kubectl apply -f pvc-wekafs-dir.yaml`{{execute}}
+`kubectl apply -f pvc-wekafs-dir.yaml`{{execute}}
 
 Check the pvc resource has been created:
-`$ kubectl get pvc`{{execute}}
+`kubectl get pvc`{{execute}}

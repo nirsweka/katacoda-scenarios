@@ -28,12 +28,12 @@ spec:
 
 Now we will apply that pod:
 
-`$ kubectl apply -f csi-app-on-dir.yaml`{{execute}}
+`kubectl apply -f csi-app-on-dir.yaml`{{execute}}
 
 
 Kubernetes will allocate a persistent volume and attach it to the pod, it will use a directory within the WekaFS filesystem as defined in the storage class mentioned in the persistent volume claim. The pod will be in `Running` status, and the `temp.txt` file will get updated with occasional `date` information.
 
-`$ kubectl get pod my-csi-app`{{execute}}
+`kubectl get pod my-csi-app`{{execute}}
 
 If we go to a wekafs mount of this filesystem we can see a directory has been created
 ```
