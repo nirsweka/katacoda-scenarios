@@ -7,7 +7,8 @@
     "steps": [
       {
         "title": "Step 1 - Weka CSI Plugin Deployment",
-        "text": "step1.md"
+        "text": "step1.md",
+        "foreground": "launch.sh"
       },
       {
         "title": "Step 2 - Storage Class Provision",
@@ -38,5 +39,8 @@
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
-  }
+  },
+  "files": [
+    "examples/*"
+  ],
 }
