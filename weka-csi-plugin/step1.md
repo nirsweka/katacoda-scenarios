@@ -1,6 +1,3 @@
-## Init the scenario by running:
-`launch.sh`{{execute}}
-
 The Weka CSI Plugin deployment is performed via a daemon set.
 
 ### Download

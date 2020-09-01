@@ -34,9 +34,15 @@
       "text": "finish.md"
     }
   },
-  "files": [
-    "examples/*"
-  ],
+    "assets": {
+      "host01": [
+        {
+          "file": "examples/*",
+          "target": "~/examples
+        }
+      ]
+    }
+  },
   "environment": {
     "uilayout": "editor-terminal"
   },
