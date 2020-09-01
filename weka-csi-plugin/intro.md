@@ -37,5 +37,3 @@ ethod to expose WekaFS mounts as Kubernetes volumes.
 * All volume access modes are supported: ReadWriteMany, ReadWriteOnce, and ReadOnlyMany
 * Volume expansion
 
-Init the by running:
-`launch.sh`{{execute}}
