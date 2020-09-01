@@ -2,22 +2,7 @@ Using a similar storage class to the above, it is possible to define a persisten
 
 #### Persistent Volume Claim Example
 
-{% code title="csi-wekafs/examples/dynamic/pvc-wekafs-dir.yaml" %}
-```yaml
-apiVersion: v1
-kind: PersistentVolumeClaim
-metadata:
-  name: pvc-wekafs-dir
-spec:
-  accessModes:
-    - ReadWriteMany
-  storageClassName: storageclass-wekafs-dir
-  volumeMode: Filesystem
-  resources:
-    requests:
-      storage: 1Gi
-```
-{% endcode %}
+`/root/csi-wekafs/examples/dynamic/pvc-wekafs-dir.yaml`{{open}}
 
 #### Persistent Volume Claim **Parameters**
 

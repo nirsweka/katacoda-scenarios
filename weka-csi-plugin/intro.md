@@ -15,9 +15,7 @@ ethod to expose WekaFS mounts as Kubernetes volumes.
 * OS \(of Kubernetes worker nodes\): ubuntu 16.04, 18.04
 * WekaFS: 3.8 and up
 
-{% hint style="info" %}
 **Note:** For additional Kubernetes/OS versions support contact the Weka support team
-{% endhint %}
 
 ### Prerequisites
 
@@ -25,8 +23,8 @@ ethod to expose WekaFS mounts as Kubernetes volumes.
 * The following Kubernetes feature gates must be enabled: DevicePlugins, CSINodeInfo, CSIDriverRegistry, ExpandCSIVolumes \(if not changed, they should be enabled by default\)
 * A Weka cluster is installed and accessible from the Kubernetes worker nodes
 * The Weka client is installed on the Kubernetes worker nodes
-  * It is recommended to use a [Weka client which is part of the cluster](../install/bare-metal/adding-clients-bare-metal.md#adding-clients-which-are-always-part-of-the-cluster) rather than a [stateless
- client](../install/bare-metal/adding-clients-bare-metal.md#adding-stateless-clients)
+  * It is recommended to use a [Weka client which is part of the cluster](https://docs.weka.io/install/bare-metal/adding-clients-bare-metal#adding-clients-which-are-always-part-of-the-cluster) rather than a [stateless
+ client](https://docs.weka.io/install/bare-metal/adding-clients-bare-metal#adding-stateless-clients)
   * If the Kubernetes nodes are part of the Weka cluster \(converged mode on the Weka servers\), make sure the Weka processes come up before `kubelet`
 * Filesystems are pre-configured on the Weka system
 

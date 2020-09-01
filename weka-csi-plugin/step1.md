@@ -10,7 +10,7 @@ Download the Weka CSI Plugin from [GitHub](https://github.com/weka/csi-wekafs) t
 
 From the downloaded location in the Kubernetes master node, run the following command to deploy the Weka CSI Plugin as a DaemonsSet:
 
-`./deploy/kubernetes-latest/deploy.sh`{{execute}}
+`./csi-wekafs/deploy/kubernetes-latest/deploy.sh`{{execute}}
 
 The number of running pods should be the same as the number of Kubernetes worker nodes. This can be inspected by running:
 

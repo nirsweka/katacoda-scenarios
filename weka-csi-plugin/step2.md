@@ -2,21 +2,7 @@ It is first required to define a storage class to use the Weka CSI Plugin.
 
 #### Storage Class Example
 
-{% code title="csi-wekafs/examples/dynamic/storageclass-wekafs-dir.yaml" %}
-```yaml
-apiVersion: storage.k8s.io/v1
-kind: StorageClass
-metadata:
-  name: storageclass-wekafs-dir
-provisioner: csi.weka.io
-reclaimPolicy: Delete
-volumeBindingMode: Immediate
-allowVolumeExpansion: true
-parameters:
-  volumeType: dir/v1
-  filesystemName: podsFilesystem
-```
-{% endcode %}
+`/root/csi-wekafs/examples/dynamic/storageclass-wekafs-dir.yaml`{{open}}
 
 #### **Storage Class Parameters**
 
