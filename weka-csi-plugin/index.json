@@ -34,13 +34,13 @@
       "text": "finish.md"
     }
   },
+  "files": [
+    "examples/*"
+  ],
   "environment": {
     "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
-  },
-  "files": [
-    "examples/*"
-  ],
+  }
 }
