@@ -33,14 +33,14 @@
     "finish": {
       "text": "finish.md"
     }
-  },
   "assets": {
-    "host01": [
-      {
-        "file": "examples/*",
-        "target": "~/examples
-      }
-    ]
+      "host01": [
+        {
+          "file": "examples/*",
+          "target": "~/examples
+        }
+      ]
+    }
   },
   "environment": {
     "uilayout": "editor-terminal"
