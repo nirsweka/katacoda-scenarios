@@ -27,9 +27,9 @@ get persistent volumes
 
 `kubectl get pv`{{execute}}
 
-kubectl describe pod/\<pod-name\> -n \<namespace\>
+kubectl describe pod
 
-`kubectl describe pod/csi-wekafsplugin-dvdh2 -n csi-wekafsplugin`{{execute}}
+`kubectl describe pod/csi-wekafsplugin-<ID> -n csi-wekafsplugin`{{execute}}
 
 get logs from a pod
 

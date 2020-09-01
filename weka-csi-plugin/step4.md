@@ -4,16 +4,16 @@ We'll take an example application that echos the current timestamp every 10 seco
 
 Note that multiple pods can share a volume produced by the same PVC as long as the `accessModes` parameter is set to `ReadWriteMany`.
 
-`/root/csi-wekafs/examples/dynamic/csi-app-on-dir.yaml`{{open}}
+`cat /root/csi-wekafs/examples/dynamic/csi-app-on-dir.yaml`{{execute}}
 
 Now we will apply that pod:
 
-`kubectl apply -f csi-wekafs/examples/dynamic/csi-app-on-dir.yaml`{{execute}}
+`kubectl apply -f /root/csi-wekafs/examples/dynamic/csi-app-on-dir.yaml`{{execute}}
 
 
 Kubernetes will allocate a persistent volume and attach it to the pod, it will use a directory within the WekaFS filesystem as defined in the storage class mentioned in the persistent volume claim. The pod will be in `Running` status, and the `temp.txt` file will get updated with occasional `date` information.
 
-`kubectl get pod my-csi-app`{{execute}}
+`kubectl get pod csi-app-on-dir`{{execute}}
 
 If we go to a wekafs mount of this filesystem we can see a directory has been created
 ```

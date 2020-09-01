@@ -2,7 +2,7 @@ Using a similar storage class to the above, it is possible to define a persisten
 
 #### Persistent Volume Claim Example
 
-`/root/csi-wekafs/examples/dynamic/pvc-wekafs-dir.yaml`{{open}}
+`/root/examples/dynamic/pvc-wekafs-dir.yaml`{{open}}
 
 #### Persistent Volume Claim **Parameters**
 
@@ -14,7 +14,7 @@ Using a similar storage class to the above, it is possible to define a persisten
 
 Apply the PersistentVolumeClaim and check it has been created successfully:
 
-`kubectl apply -f pvc-wekafs-dir.yaml`{{execute}}
+`kubectl apply -f /root/csi-wekafs/examples/dynamic/pvc-wekafs-dir.yaml`{{execute}}
 
 Check the pvc resource has been created:
 `kubectl get pvc`{{execute}}
