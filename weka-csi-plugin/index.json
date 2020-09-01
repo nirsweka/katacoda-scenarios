@@ -7,8 +7,7 @@
     "steps": [
       {
         "title": "Step 1 - Weka CSI Plugin Deployment",
-        "text": "step1.md",
-        "foreground": "launch.sh"
+        "text": "step1.md"
       },
       {
         "title": "Step 2 - Storage Class Provision",
@@ -28,7 +27,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "launch.sh"
     },
     "finish": {
       "text": "finish.md"
