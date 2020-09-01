@@ -2,7 +2,7 @@ It is first required to define a storage class to use the Weka CSI Plugin.
 
 #### Storage Class Example
 
-`csi-wekafs-plugin/examples/dynamic/storageclass-wekafs-dir.yaml`{{open}}
+`/root/examples/dynamic/storageclass-wekafs-dir.yaml`{{open}}
 
 #### **Storage Class Parameters**
 

@@ -4,12 +4,6 @@
   "difficulty": "Beginner",
   "time": "15 minutes",
   "details": {
-    "assets": {
-        "host01": [
-            {"file": "examples/dynamic/pvc-wekafs-dir.yaml", "target": "/root/examples", "chmod": "+x"},
-            {"file": "examples/dynamic/storageclass-wekafs-dir.yaml", "target": "/root/examples", "chmod": "+x"}
-        ]
-    },
     "steps": [
       {
         "title": "Step 1 - Weka CSI Plugin Deployment",
