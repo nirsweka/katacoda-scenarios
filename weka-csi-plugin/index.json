@@ -1,0 +1,42 @@
+{
+  "title": "Weka CSI Plugin",
+  "description": "Configure Weka CSI Plugin",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Weka CSI Plugin Deployment",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Storage Class Provision",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Dynamic Provisioning",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Launch an Application",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Troubleshoot",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster"
+  }
+}
