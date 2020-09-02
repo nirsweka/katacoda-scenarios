@@ -4,7 +4,7 @@ We'll take an example application that echos the current timestamp every 10 seco
 
 Note that multiple pods can share a volume produced by the same PVC as long as the `accessModes` parameter is set to `ReadWriteMany`.
 
-`/root/csi-wekafs/examples/dynamic/csi-app-on-dir.yaml`{{open}}
+`csi-wekafs/examples/dynamic/csi-app-on-dir.yaml`{{open}}
 
 Now we will apply that pod:
 
