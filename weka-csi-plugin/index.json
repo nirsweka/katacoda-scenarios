@@ -32,6 +32,15 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": { 
+      "client": [
+        {
+          "file": "examples/*", 
+          "target": "/root/examples", 
+          "chmod": "+x"
+        }
+      ] 
     }
   },
   "environment": {
