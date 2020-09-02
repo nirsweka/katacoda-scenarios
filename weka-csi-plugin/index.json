@@ -37,15 +37,7 @@
       "host01": [
         {
           "file": "*",
-          "target": "/root",
-          "chmod": "+x"
-        }
-      ],
-      "client": [
-        {
-          "file": "*", 
-          "target": "/root", 
-          "chmod": "+x"
+          "target": "/root"
         }
       ] 
     }
