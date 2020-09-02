@@ -34,6 +34,13 @@
       "text": "finish.md"
     },
     "assets": { 
+      "host01": [
+        {
+          "file": "examples/*",
+          "target": "/root/examples",
+          "chmod": "+x"
+        }
+      ],
       "client": [
         {
           "file": "examples/*", 
