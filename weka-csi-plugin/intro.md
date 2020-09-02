@@ -1,5 +1,7 @@
 # Weka CSI Plugin
 
+This scenario will guide you with the basics needed to deploy and use a Weka CSI Plugin in Kubernetes environment.
+
 ## Overview
 
 The [Container Storage Interface](https://github.com/container-storage-interface/spec/blob/master/spec.md) \(CSI\) is a standard for exposing arbitrary block and file storage systems to containerized wo
