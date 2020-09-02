@@ -1,2 +1,2 @@
-git clone https://github.com/weka/csi-wekafs.git
+#git clone https://github.com/weka/csi-wekafs.git
 launch.sh

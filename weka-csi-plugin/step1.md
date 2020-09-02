@@ -5,7 +5,7 @@ The Weka CSI Plugin deployment is performed via a daemon set.
 Download the Weka CSI Plugin from [GitHub](https://github.com/weka/csi-wekafs) to a master node in the Kubernetes cluster.
 
 The clone command has already been ran as part of the training environemnt startup:
-`git clone https://github.com/weka/csi-wekafs.git`	
+`git clone https://github.com/weka/csi-wekafs.git`{{execute}}	
 
 ### Installation
 
