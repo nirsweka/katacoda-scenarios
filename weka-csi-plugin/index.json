@@ -36,15 +36,15 @@
     "assets": { 
       "host01": [
         {
-          "file": "examples/*",
-          "target": "/root/examples",
+          "file": "*",
+          "target": "/root",
           "chmod": "+x"
         }
       ],
       "client": [
         {
-          "file": "examples/*", 
-          "target": "/root/examples", 
+          "file": "*", 
+          "target": "/root", 
           "chmod": "+x"
         }
       ] 
