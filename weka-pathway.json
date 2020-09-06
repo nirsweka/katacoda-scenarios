@@ -6,6 +6,7 @@
       {
         "title": "Weka CSI PLugin",
         "description": "Weka CSI PLugin",
+        "icon": "fa-kubernetes",
         "pathway_id": "nirs",
         "id": "weka-csi-plugin",
         "course_id": "weka-csi-plugin"
