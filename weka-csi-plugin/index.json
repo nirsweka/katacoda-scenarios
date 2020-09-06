@@ -1,4 +1,5 @@
 {
+  "icon": "fa-weka",
   "title": "Weka CSI Plugin",
   "description": "Configure Weka CSI Plugin",
   "difficulty": "Beginner",
