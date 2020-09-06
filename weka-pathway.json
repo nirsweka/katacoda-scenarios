@@ -6,7 +6,8 @@
       {
         "title": "Weka CSI PLugin",
         "description": "Weka CSI PLugin",
-        "course_id": "../weka-csi-plugin"
+        "pathway_id": "",
+        "course_id": "weka-csi-plugin"
       }
     ]
   }
