@@ -1,0 +1,14 @@
+{
+    "title": "Weka Foundamentals",
+    "description": "Weka Foundamentals Course",
+    "icon": "fa-nirs",
+    "courses": [
+      {
+        "title": "Weka CSI PLugin",
+        "description": "Weka CSI PLugin",
+        "pathway_id": "katacoda-scenarion",
+        "course_id": "weka-csi-plugin"
+      }
+    ]
+  }
+  
