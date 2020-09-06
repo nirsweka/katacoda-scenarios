@@ -6,8 +6,8 @@
       {
         "title": "Weka CSI PLugin",
         "description": "Weka CSI PLugin",
-        "course_id": "weka-csi-plugin",
-        "icon": "fa-kubernetes"
+        "pathway_id": "katacoda-scenarios",
+        "course_id": "weka-csi-plugin"
       }
     ]
   }
