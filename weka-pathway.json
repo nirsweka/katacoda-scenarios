@@ -1,7 +1,7 @@
 {
     "title": "Weka Foundamentals",
     "description": "Weka Foundamentals Course",
-    "icon": "fa-nirs",
+    "icon": "fa-linux",
     "courses": [
       {
         "title": "Weka CSI PLugin",
